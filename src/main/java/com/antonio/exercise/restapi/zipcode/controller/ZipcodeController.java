@@ -16,7 +16,7 @@ import com.wordnik.swagger.annotations.ApiOperation;
 @CrossOrigin
 @RestController
 @RequestMapping(value = "/v1", produces = "application/json;charset=UTF-8")
-@Api(value="ZipCodes", description="ZipCode Api to retrieve the zipcode in Mexico")
+@Api(value="ZipCodes", description="ZipCodes Api to retrieve the zipcode in Mexico")
 public class ZipcodeController {
 	
 	private ZipcodeManager zipcodeManager;
